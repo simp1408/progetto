@@ -1,0 +1,207 @@
+*,
+*::before, 
+*::after{
+    box-sizing: border-box;
+}
+
+/* tipografia */
+
+.font{ 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color:#25a2c3;
+    padding-top: 45px;
+    text-align: center; 
+    font-size:22px;
+    line-height: 5rem;
+}
+
+
+/* body */
+
+ body{
+background-color: #393d41;
+line-height: 1.65rem;
+font-family: 'Open Sans', sans-serif;
+}
+
+/* header */
+
+
+header{ 
+    background-color: black;
+    width: 100%;
+    height: 20vh;
+    top:0;
+    }
+
+    .wrapper{
+        padding-top: 50px;
+        width: 50%;
+      margin: 0 auto;    
+  }
+
+.logo img{
+   
+    width: 80%;   
+}
+
+.hero{
+  width: 100%;
+  height: 100%;
+
+}
+.hero-content{
+
+  background-image: url("../images/banner.jpg");  
+  background-position: center center;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  height: 80vh;
+  padding: 55px;
+
+ 
+}
+.hero-content h1{
+  padding-top: 70px;
+  margin-bottom: 22px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 50px;
+   
+}
+
+.hero-content p{ 
+    font-size: 22px; 
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+   
+    /* padding-top: 60px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 50px;
+    margin-left: 20px;
+    margin-right: 20px; */
+}
+button{
+    background-color: red;
+    color: white;
+    padding: 25px;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-right: 20%;
+    margin-left: 27%;
+    margin-top: 50px;
+    border:none;
+
+}
+/* main */
+article{
+    background-color:  white;
+}
+.img-article img{
+
+border-radius: 50%; 
+margin-top: 30px;
+ padding:35px;
+
+}
+p{text-align: center;
+    font-size: 24px;
+    line-height: 2rem;
+    
+}
+.box{
+    
+    width: 100%;
+    /* height: 100%; */
+    height: 50vh;
+    background-color: red;
+    padding-bottom: 22px;
+    
+
+
+}
+h3{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-top: 65px;
+    text-align: center; 
+    font-size: 40px;
+    padding-bottom: 25px;
+  
+}
+cite{ font-style: italic;}
+.box p ,cite{
+    color:white;
+    line-height: 1.56 ;
+    padding: 15px;
+    
+}
+.p-font{padding-bottom: 40px;}
+
+.card{ 
+    
+    background-color: white;
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+  
+
+}
+.card-content{
+    
+    border:1px solid rgb(239,239,239);
+    margin-top: 50px;
+}
+.card-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color:#25a2c3;
+    line-height: 30px;
+}
+.card-body{
+    
+    padding: 25px;
+    padding-bottom: 40px;
+}
+
+
+
+/* .img-area{
+    border:1px solid red;
+    display: block;
+    padding: 25px;
+} */
+
+.card img{
+   
+    width: 100%;
+    height: 100%;
+
+}
+/* FOOTER */
+
+
+.box-2{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    background-color: #25a2c3;;
+    padding-bottom: 22px;
+
+}
+.box-2 p, a {
+    
+    color:white;
+    line-height: 1.56 ;
+    padding: 22px;
+    
+}
+
+
+
+
+
